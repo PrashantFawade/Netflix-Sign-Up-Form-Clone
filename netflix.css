@@ -90,37 +90,9 @@ label, p, small,a {
 .form-help{
     display: flex;
     justify-content: space-between;
-    cursor: pointer;
+    cursor: pointer; 
 }
-
-
-
-
-
-
-
-
-
-
-/* ///////////////////////// */
-
-
-/* .form-wrapper {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-225px, -210.5px) translate(-50%, -50%);  /* Reverse order 
-    width: 450px;
-    padding: 90px;
-  }
+    
   
 
-.form-wrapper {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-225px, -210.5px) translate(calc(-50% - (450px / 2)), calc(-50% - (90px / 2)));  /* Dynamic centering 
-    width: 450px;
-    padding: 90px;
-  } */
 
