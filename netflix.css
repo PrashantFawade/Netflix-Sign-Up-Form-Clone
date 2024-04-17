@@ -87,10 +87,41 @@ label, p, small,a {
 .form-wrapper a{
  text-decoration: none;
 }
-.form-help{
+/* .form-help{
     display: flex;
     justify-content: space-between;
     cursor: pointer; 
+} */
+p a{
+    color: white;
+}
+small{
+    display: block;
+    margin-top: 15px;
+}
+small a{
+    color: #0071eb;
+}
+.form-help{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-me{
+    display: flex;
+}
+.remember-me input{
+    margin-right: 5px;
+}
+.form-wrapper a:hover {
+    text-decoration: underline;
+}
+
+form .form-help :where(label, a) {
+    font-size: 14px;
+}
+
+form button:hover, #code:hover {
+    opacity: 0.8;
 }
     
   
